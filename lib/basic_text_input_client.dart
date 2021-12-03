@@ -200,12 +200,14 @@ class _BasicTextInputClientState extends State<BasicTextInputClient>
   }
 
   late final Map<Type, Action<Intent>> _actions = <Type, Action<Intent>>{
+    /*
     DeleteCharacterIntent: CallbackAction<DeleteCharacterIntent>(
       onInvoke: (DeleteCharacterIntent intent) => _delete(),
     ),
     ExtendSelectionByCharacterIntent: CallbackAction<ExtendSelectionByCharacterIntent>(
       onInvoke: (ExtendSelectionByCharacterIntent intent) => _extendSelection(intent.forward),
     ),
+    */
   };
 
   @override
