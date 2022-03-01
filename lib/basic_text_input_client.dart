@@ -547,6 +547,19 @@ class _BasicTextInputClientState extends State<BasicTextInputClient>
   void updateFloatingCursor(RawFloatingCursorPoint point) {
     // TODO: implement updateFloatingCursor
   }
+
+  // TODO(justinmc): Scribble support.
+  @override
+  void insertTextPlaceholder(Size size) {}
+
+  // TODO(justinmc): Scribble support.
+  @override
+  void removeTextPlaceholder() {}
+
+  @override
+  void showToolbar() {
+    // TODO(justinmc): Toolbar.
+  }
 }
 
 class _CustomTextOverlayPainter extends CustomPainter {
